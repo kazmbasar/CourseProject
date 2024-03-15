@@ -4,14 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Core.DataAccess;
-using Core.Entities.Concrete;
 using Entities.Concrete;
 
 namespace DataAccess.Abstract
 {
-    public interface IUserDal : IEntityRepository<User>
+    public interface IUserImageDal: IEntityRepository<UserImage>
     {
-        public List<OperationClaim> GetClaims(User user);
-
     }
 }

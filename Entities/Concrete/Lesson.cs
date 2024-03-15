@@ -11,5 +11,6 @@ namespace Entities.Concrete
     { 
         public string? Name { get; set; }
         public float Price { get; set; }
+        public ICollection<Class>? Classes { get; set; }
     }
 }

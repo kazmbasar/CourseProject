@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entities.Concrete
+namespace Business.Constants
 {
-    public abstract class BaseEntity<T>
+    public class ImagePath
     {
-        public T? Id { get; set; }
+        public static string Path = @"wwwroot\UsersImages\";
     }
 }

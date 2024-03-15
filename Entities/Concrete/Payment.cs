@@ -12,5 +12,7 @@ namespace Entities.Concrete
         public int RoleId { get; set; }
         public float Price { get; set; }
         public DateTime PaymentHour { get; set; }
+        public Role? Role { get; set; }
+
     }
 }
